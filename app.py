@@ -61,5 +61,5 @@ if uploaded_file is not None:
     )
 
     st.write("Probabilitas:")
-    st.write(f"Benign: {prediction[0][0]*100:.2f}%")
-    st.write(f"Malignant: {prediction[0][1]*100:.2f}%")
+    st.write(f"Jinak: {prediction[0][0]*100:.2f}%")
+    st.write(f"Ganas: {prediction[0][1]*100:.2f}%")
