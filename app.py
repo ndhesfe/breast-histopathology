@@ -34,7 +34,7 @@ if uploaded_file is not None:
     )
 
     # Sesuaikan dengan ukuran training
-    img = image.resize((50, 50))
+    img = image.resize((128, 128))
 
     img = np.array(img, dtype=np.float32)
     img = img / 255.0
